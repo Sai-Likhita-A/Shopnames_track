@@ -27,7 +27,8 @@ CUDA_VISIBLE_DEVICES=0 python3 infer.py \
 --SequenceModeling BiLSTM --Prediction Attn --image_folder demo_image/ --saved_model TPS-ResNet-BiLSTM-Attn.pth
 ```
 
-The result cropped images will be saved to `./result_folder/cropped_images_folder` by default
+The resultant cropped images will be saved to `./result_folder/cropped_images_folder` by default
+The text output is saved to shopnames_timestamp.csv along with the time stamps of its appearance in the input video
 
 ### Arguments
 * `--det_model`: pretrained text detection model
