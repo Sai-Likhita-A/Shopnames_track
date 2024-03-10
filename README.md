@@ -66,9 +66,9 @@ The text output is saved to shopnames_timestamp.csv along with the time stamps o
 
 #### Future work
 
-Faced challange with using video url directly due to some library issues, so tested with downloaded video from the mentioned youtube link. 
-Improvements can be done in terms of resource usage, by passing frames to both the models in a single iteration of for loop instead of saving the intermediate images from first model and reading them from second model.
-The pre-trained OCR model is accurate only on horizontal or curved shop names while failing miserably in case of vertical shop names. Further training is required to include vertical characters recognition.
+* Faced challange with using video url directly due to some library issues, so tested with downloaded video from the mentioned youtube link. 
+* Improvements can be done in terms of resource usage, by passing frames to both the models in a single iteration of for loop instead of saving the intermediate images from first model and reading them from second model.
+* The pre-trained OCR model is accurate only on horizontal or curved shop names while failing miserably in case of vertical shop names. Further training is required to include vertical characters recognition.
 
 #### Acknowledgements
 This implementation has been based on these repository https://github.com/clovaai/CRAFT-pytorch, https://github.com/clovaai/deep-text-recognition-benchmark.
