@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ### Test instruction using pretrained model
 - Download the pre-trained weights of text detection model from [here](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ) and place in weights folder
 - Download pretrained weights of OCR model TRBA (**T**PS-**R**esNet-**B**iLSTM-**A**ttn.pth) from [here](https://drive.google.com/drive/folders/15WPsuPJDCzhp2SvYZLRj8mAlT3zmoAMW) and place in weights folder
-- Download pretrained weights of case sensitive version of OCR model TRBA (**T**PS-**R**esNet-**B**iLSTM-**A**ttn.pth) from [here](https://drive.google.com/file/d/1ajONZOgiG9pEYsQ-eBmgkVbMDuHgPCaY/view) and place in weights folder
+- Download pretrained weights of case sensitive version of OCR model TRBA (**T**PS-**R**esNet-**B**iLSTM-**A**ttn-case-sensitive.pth) from [here](https://drive.google.com/file/d/1ajONZOgiG9pEYsQ-eBmgkVbMDuHgPCaY/view) and place in weights folder
 
 Run demo.py (add `--sensitive` option if you use case-sensitive model)
 ```
