@@ -24,7 +24,7 @@ Run demo.py (add `--sensitive` option if you use case-sensitive model)
 CUDA_VISIBLE_DEVICES=0 python3 infer.py \
 --det_model 'weights/craft_mlt_25k.pth' --source test_images --result_folder 'results2' --cropped_images_folder 'results2/cropped_images_folder' \
 --text_rec_model 'weights/TPS-ResNet-BiLSTM-Attn.pth' --filename 'shopnames_timestamp.csv' --Transformation TPS --FeatureExtraction ResNet \
---SequenceModeling BiLSTM --Prediction Attn --image_folder demo_image/ --saved_model TPS-ResNet-BiLSTM-Attn.pth
+--SequenceModeling BiLSTM --Prediction Attn
 ```
 
 The resultant cropped images will be saved to `./result_folder/cropped_images_folder` by default
